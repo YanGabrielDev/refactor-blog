@@ -3,6 +3,7 @@ import {getAllMarks} from '../lib/api'
 
 export default async function Home() {
   const posts =  getAllMarks()
+  console.log("opa");
   
   return (
     <main className={styles.main}>
